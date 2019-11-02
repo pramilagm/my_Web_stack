@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+                $('#hide').click(function(){
+                    $('p').hide();
+                })
+                $('#show').click(function(){
+                    $('p').show();
+                })
+                // $('p').hide();
+                $('a').click(function(){
+                    alert("you are leaving the page");
+                })
+                $('h2').hover(function(){
+                    $('h2').text('visit the Golden Gate');
+                })
+                $('.append').click(function(){
+                    $('.result').append('<p>this it the appended line</p>')
+                })
+                $("button").click(function(){
+                    $('button').css('background-color','yellow');
+                })
+                $('.btn').click(function(){
+                    $('#tog').slideToggle("slow");
+                })
+
+                // setter function sets the value on the function
+                $(document).ready(function(){
+                    var myText = $('#myParagraph').text();
+                    alert(myText);
+                })
+                $( "p" ).after( "<b>Hello Pramila</b>" ).css('background-color','blue');
+
+            })
+        </script>
+        <p>Hello world </p>
+        <div><P>How are you today Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi no
+            n vel necessitatibus voluptas molestias voluptatibus minus laudantium a d
+            oloremque ut soluta ratione, sunt cum est quod inventore culpa enim?</P></div>
+        <button id ="hide">click here to hide the paragraph</button>
+        <button id="show">click to show the paragraph</button>
+        <a href="#">link</a>
+        <h2>hello,washington</h2>
+        <button class="append">clicck the see the append work</button>
+        <div class="result"></div>
+        
+        <button class="btn">Toggle-button</button>
+        <p id='tog'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, perspiciatis vero?
+             Quisquam magni totam nobis, quos fugit praesentium et 
+                dolore labore recusandae est, amet ab quas nisi, error possimus sunt
+            
+        </p>
+
+
+
+      </body>
+</html>

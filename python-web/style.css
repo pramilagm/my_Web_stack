@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    height: auto;
+    width:1000px;
+    margin: 0 auto;
+}
+.header{
+    min-height: 200px;
+    background-color:#245076;
+    
+}
+.site-headline{
+    border: black;
+    display: inline-block;
+}
+.header img{
+    height: 120px;
+    width: 40%;
+    padding: 5px;
+}
+.search-navigator{
+    height: 100px;
+    width: 300px;
+    padding:10px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: left;  
+    margin-left:260px;
+}
+.search-navigator p{
+    padding-top: 5px;
+    font-size: 11px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin-left:140px;
+    color: wheat;
+}
+.search-navigator a{
+    color: #c9ee42;
+}
+.buttons {
+    
+    height: 40px;
+    width: 250px;
+    background-color: #444444;
+    padding-top: 15px;
+    padding-left:50px;
+    border-radius:8px;
+
+}
+.button input ,.buttons button{
+    height: 20px;
+}
+.buttons button{
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #245076;
+    color: wheat;
+}
+.header-nav{
+    background-color:#427CAD;
+    margin-left:60px;
+    border-radius: 8px;
+    height: 50px;
+    width: 900px;
+    text-align: center;
+
+    
+   
+}
+.header-nav a, .header-nav li{
+    text-decoration: none;
+    display: inline-block;
+    padding-top:5px;
+    padding-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.header-content{
+    width: 200px;
+    border: black;
+    padding-left: 220px;
+    padding-top:15px;
+    display: inline-block;
+}
+
+.header-content li{
+    color:wheat; 
+    
+}
+.right-content{
+    display: inline-block;
+    width: 500px;
+    padding-top:20px;  
+}
+.right-content p{
+    color: wheat;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.right-content h4{
+    font-style: italic;
+    width: 230px;
+    color:#CDB542;
+    padding-left: 150px;
+}
+.middle-content{
+    height: 100px;
+    text-align: center;
+    padding-top:15px;
+    margin-bottom: 100px;
+}
+.contents{
+    display: inline-block;
+    width: 480px;
+
+}
+.middle-content hr{
+    width: 300px;
+    margin-left: 100px;
+    border: #8EB8DD 2px solid;
+}
+.contents li, span{
+    color: #8EB8DD;
+   
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #295D8B;
+    padding-top: 30px;
+    text-align: center;
+}
+.footer h3{
+    width:320px;
+    display: inline-block;   
+}
+.footer p,.footer h3{
+    color:#598FBE;
+    font-size: 15px;
+
+}

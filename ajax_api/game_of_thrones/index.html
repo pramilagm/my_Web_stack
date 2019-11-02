@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                var n_id  =$(this).attr('id')
+                $.get("https://anapioficeandfire.com/api/houses/378"+ n_id,function(response){
+                    var nw_info = 
+                    `
+                    h3>Name${response['name']}</h3>
+                    <h3>Words${response['words']}</h3>
+                    <h3>Title${response['titles']}</h3>
+                    `
+                $('div.information').html(new_info)
+
+                })
+
+            })
+
+        })
+
+
+
+
+    </script>
+    
+
+</head>
+<body>
+    <div id="house">
+        <img id="1" src="images/baratheon.png" alt=""> 
+        <img id="2" src="images/lannister.jpg" alt=""> 
+        <img id="3" src="images/stark.jpg" alt="">
+        <img id="4" src="images/targaryen.jpg" alt="">
+    </div>
+    <div class="information">
+        <h3>Name</h3>
+        <h3>Words</h3>
+        <h3>Title</h3>
+        <img src="https://anapioficeandfire.com/api/characters/994" alt="">
+        
+
+    </div>
+    
+    
+</body>
+</html>

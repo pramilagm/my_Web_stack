@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $('#cat0').click(function(){
+                $('#cat0').attr('src','img/ninja0.png');
+            })
+            $('#cat1').click(function(){
+                $('#cat1').attr('src','img/ninja1.png');
+            })
+
+            $('#ninja2').click(function(){
+                $('#ninja2').attr('src','img/cat0.png');
+            })
+            $('#ninja3').click(function(){
+                $('#ninja3').attr('src','img/cat2.png');
+            })
+            $('#ninja4').click(function(){
+                $('#ninja4').attr('src','img/ninja1.png')
+            })
+
+        })
+    
+    </script>
+    <div class="container">
+
+        <img id="cat0" src="img/cat0.png" alt="">
+        <img id="cat1" src="img/cat1.png" alt="">
+        <img id="ninja2" src="img/ninja2.png" alt=''>
+        <img id="ninja3" src="img/ninja3.png" alt=""> 
+        <img id="ninja4" src="img/ninja4.png" alt="">
+        
+    </div>
+    
+</body>
+</html>

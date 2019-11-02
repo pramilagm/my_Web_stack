@@ -1,0 +1,16 @@
+.features{
+    height: 400px;
+    width: 250px;
+    border: 30px solid red;
+    vertical-align: top;
+    margin-left: 80px;
+    padding-left: 20px;
+}
+
+.features,.images,img{
+    display: inline-block;
+}
+.images{
+    width: 600px;
+   
+}

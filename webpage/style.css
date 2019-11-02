@@ -1,0 +1,41 @@
+a{
+    color: cyan;
+}
+body {
+    color: white;
+}
+span {
+    color: purple;
+}
+.wrapper{
+    background-color: navy;
+    width: 970px;
+    padding: 10px 10px 10px 10px;
+}
+.navigation{
+    border-radius: 10px;
+    width: 180px;
+    background-color: darkcyan;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+.header{    
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin: 0 0 15px 0;
+    padding: 1px 0 1px 10px;
+}
+.footer{    
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 0 0;
+}
+.main_content{
+    border-radius: 10px;
+    background-color: black;
+    width: 730px;
+    margin: 0 0 0 215px;
+    padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,143 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    min-height: 500px;
+    width: 940px;
+    background-color: #062134;
+    margin: 0px auto;
+    padding: 10px;
+}
+.header h2{
+    height: 50px;
+    width: 350px;
+    color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.header li{
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    margin-left: 20px;
+    font-size:18px;
+    color: white;
+}
+.header h2,.header ul,li,.contents h1{
+    display: inline-block;
+
+  
+}
+.main_container{
+  
+   min-height: 300px;
+   width:900px;
+   background-color: white;
+   padding: 15px;
+   
+}
+#main_image {
+    height:320px ;
+    width: 890px;
+    
+    padding-top:15px
+}
+.medium-content{
+    padding: 15px;
+    width: 873px;
+
+}
+.medium-content .contents{
+    width:266px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.contents{
+    background-color: #1468A8;
+    margin-right: 10px;
+}
+.medium-content img{
+    width:51px;
+    height:35px;
+
+}
+.contents h1{
+    vertical-align: top;
+    padding-top: 15px;
+    color: white;
+    
+}
+.contents p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.contents button{
+    width: 150px;
+    height: 42px;
+    padding:8px;
+    margin-top: 12px;
+    background-color: #3CA8EB;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+
+}
+.name-contents{
+    padding-bottom: 10px;
+}
+.name-contents h2{
+    width: 296px;
+    display: inline-block;
+    color:rgb(78, 74, 74);
+}
+.B-contents .bottom-contents{
+    width:275px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 15px;
+
+}
+.bottom-contents{
+    text-align: top;;
+}
+.bottom-contents img{
+    width: 275px;
+    height:160px ;
+}
+.bottom-contents p,.bottom-contents h3{
+    color: rgb(69, 90, 105);
+    padding-top: 15px;
+}
+.p-contents{
+    background-color:#DAEDFF ;
+    height: 100px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+
+}
+
+.footer{
+    height: 50px;
+    width :930px;
+    background-color: #DAEDFF;
+    text-align: center;
+    border-top:2px solid black;
+}
+.footer li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: rgb(86, 126, 165);
+}

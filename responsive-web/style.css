@@ -1,0 +1,36 @@
+
+
+@media only screen and(max-width:480){
+    .container{
+        width: 25%;;
+
+    }
+}
+
+@media only screen and (min-width:481){
+    .container{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:1024){
+    .container{
+        width: 100%;
+       
+
+    }
+}
+.container{
+    margin:3em;
+}
+.container h2{
+    padding: .8em;
+    background-color: gray;
+    min-height: .40em;
+    padding-bottom:2em;
+    ;
+}
+.container p{
+    padding: .8em;
+    background-color: gray;
+    min-height: 8em;
+}
